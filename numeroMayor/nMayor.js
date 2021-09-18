@@ -1,14 +1,14 @@
-let a=prompt("INTRODUCE EL NUMERO A:");
-let b=prompt("INTRODUCE EL NUMERO B:");
-let c=prompt("INTRODUCE EL NUMERO C:");
+let a=20;
+let b=14;
+let c=80;
 
-let nMax="a";
+let nMax=a;
 
 if(a<b){
     if(b<c){
-        nMax="c";
+        nMax=c;
     }else{
-        nMax="b";
+        nMax=b;
     }
 }
 
