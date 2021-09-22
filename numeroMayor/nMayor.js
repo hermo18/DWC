@@ -12,4 +12,4 @@ if(a<b){
     }
 }
 
-alert("EL NUMERO MAYOR ES: "+nMax);
+console.log("EL NUMERO MAYOR ES: "+nMax);
