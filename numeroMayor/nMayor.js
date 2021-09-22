@@ -8,7 +8,7 @@ if(b>a && b>c){
  nMax=b;   
 }
 if(c>a && c>b){
- nMax=b;   
+ nMax=c;   
 }
 
 
