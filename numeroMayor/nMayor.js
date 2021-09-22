@@ -4,12 +4,12 @@ let c=80;
 
 let nMax=a;
 
-if(a<b){
-    if(b<c){
-        nMax=c;
-    }else{
-        nMax=b;
-    }
+if(b>a && b>c){
+ nMax=b;   
 }
+if(c>a && c>b){
+ nMax=b;   
+}
+
 
 console.log("EL NUMERO MAYOR ES: "+nMax);
