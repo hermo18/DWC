@@ -20,7 +20,7 @@ GitHub es un portal destinado para alojar código de cualquier desarollador, al 
 
 ### CREAR UNA CUENTA DE GITHUB
 
-Para crearnos una cuenta de GitHub deberemos dirigirnos al [siguiente enlace](https://github.com/). Una vez allí, deberemos seleccionar en la parte de arriba a la derecha **SING IN**, introduciremos nuestros datos y... ¡LISTO! :smile: Ahora cada vez que quieras entrar con tu cuenta trendrás que hacer click sobre el botón **LOG IN**.
+Para crearnos una cuenta de GitHub deberemos dirigirnos al [siguiente enlace](https://github.com/). Una vez allí, deberemos seleccionar en la parte de arriba a la derecha **SIGN UP**, introduciremos nuestros datos y... ¡LISTO! :smile: Ahora cada vez que quieras entrar con tu cuenta trendrás que hacer click sobre el botón **SIGN IN**.
 
 ### USUARIOS DE LINUX
 
@@ -47,14 +47,36 @@ A continuación, vamos a decirle a **Git** quién somos, para ello vamos a neces
 git config --global user.name "Tu nombre"
 git config --global user.email "ejemplo@email.com".
 ```
-### CREACIÓN DE REPOSITORIOcEN GITHUB
+### CREACIÓN DE REPOSITORIO EN GITHUB
 
 Antes de poder subir nuestros archivos a GitHub deberemos de crearnos un **repositorio** y ponerle el nombre que deseemos. Una vez creado, nos aparecerá una URL como esta  **https://github.com/hermo18/DWC**.
 Ahora, con esta URL a mano deberemos de ir a nuestro terminal deberemos dirigirnos a la carpeta que deseemos guardar todos nuestros archivos con la instrucción **cd**. Una vez allí deberemos de ejecutar el sigueinte comando:
 >git clone "URL mencionada anteriormente"
 
+### COMANDOS PARA SUBIR ARCHIVOS A GITHUB MEDIANTE COMANDOS
+
+1. Ahora que ya hemos creado nuestro repositorio personal vamos subir nuestros archivos mediante lineas de código.  
+La primero que queremos hacer con nuestros archivos va a ser ponerlos **en seguimiento** para que Git sea consciente de que vamos a trabajar en ellos, para esto deberemos de poner el siguiente texto en la terminal:
+>git add .
+
+2. Para poder ver que todos nuestros archivos están en seguiento deberán de aparecer enverde cuando escribamos lo siguiente:
+>git status
+
+3. Seguidamente vamos a decirle a Git que todo este conjunto de archivos ya es una **versión**, para ello es preciso escribir lo siguiente:
+>git commit -m "nombre de la versión"
+
+4. **Por último** para poder subir definitivamente la versión a **GitHub** necesitamos este código:
+>git push
+
+- Una vez escrito se nos abrirá una pestaña donde deberemos identificarnos con nuestra cuenta de GitHub.
 
 
+*******
+*******
+
+## INFORMACIÓN ADICIONAL
+
+### MODIFICAR UN ARCHIVO DEL REPOSITORIO DE OTRA PERSONA
 
 
 
